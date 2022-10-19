@@ -9,4 +9,7 @@ export default defineConfig({
       include: [/\.vue$/],
     }),
   ],
+  build: {
+    chunkSizeWarningLimit: 1600,
+  },
 });

@@ -1,54 +1,53 @@
 <template>
   <div id="indexPage">
-    <h1>🐟 鱼了个鱼</h1>
-    <div style="margin-bottom: 16px">低配版羊了个羊小游戏，仅供消遣</div>
+    <h1>Ostracods fun!</h1>
+    <div style="margin-bottom: 16px">Know more about Ostracods through game</div>
     <a-button
       block
       style="margin-bottom: 16px"
       @click="toGamePage(easyGameConfig)"
     >
-      简单模式
+      Easy Mode
     </a-button>
     <a-button
       block
       style="margin-bottom: 16px"
       @click="toGamePage(middleGameConfig)"
     >
-      中等模式
+      Middle mode
     </a-button>
     <a-button
       block
       style="margin-bottom: 16px"
       @click="toGamePage(hardGameConfig)"
     >
-      困难模式
+      Hard Mode
     </a-button>
     <a-button
       block
       style="margin-bottom: 16px"
       @click="toGamePage(lunaticGameConfig)"
     >
-      地狱模式
+      Lunatic Mode
     </a-button>
     <a-button
       block
       style="margin-bottom: 16px"
       @click="toGamePage(skyGameConfig)"
     >
-      天域模式
+      Sky mode
     </a-button>
     <a-button
       block
       style="margin-bottom: 16px"
       @click="toGamePage(yangGameConfig)"
     >
-      羊了个羊模式
+      Orginal mode
     </a-button>
     <a-button block style="margin-bottom: 16px" @click="() => toGamePage()">
-      自定义 🔥
+      customized
     </a-button>
-    <my-ad />
-    <div class="footer">
+    <div class="footer" style="display: none;">
       鱼了个鱼 ©2022 by
       <a href="https://github.com/liyupi" target="_blank" style="color: #fff">
         程序员鱼皮

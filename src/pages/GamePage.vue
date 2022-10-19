@@ -2,13 +2,14 @@
   <div id="gamePage">
     <a-row align="space-between">
       <a-button style="margin-bottom: 8px" @click="doBack"> Back</a-button>
-      <a-button>块数：{{ clearBlockNum }} / {{ totalBlockNum }}</a-button>
+      <a-button>Blocks：{{ clearBlockNum }} / {{ totalBlockNum }}</a-button>
     </a-row>
     <!-- 胜利 -->
     <a-row align="center">
       <div v-if="gameStatus === 3" style="text-align: center">
         <h2>You win!</h2>
-        <img alt="For traching" src="../assets/kunkun.png" />
+        <h2>Did you find the peanut in ostracods?</h2>
+        <img alt="For traching" src="/public/peanutshell.jpeg"/>
         <my-ad style="margin-top: 16px" />
       </div>
     </a-row>

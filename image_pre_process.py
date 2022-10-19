@@ -25,7 +25,7 @@ def padding_resize(img):
     return blank_img
 
 if __name__ == '__main__':
-    target_dir = 'src/public/images/'
+    target_dir = 'public/bucket/'
     all_imgs = os.listdir(target_dir)
     for image in all_imgs:
         print(image)
