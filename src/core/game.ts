@@ -360,7 +360,7 @@ const useGame = () => {
     if (tempSlotNum >= gameConfig.slotNum) {
       gameStatus.value = 2;
       setTimeout(() => {
-        alert("你输了");
+        alert("Lost in game? Revert and retry!");
       }, 2000);
     }
     if (clearBlockNum.value >= totalBlockNum.value) {
