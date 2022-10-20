@@ -9,8 +9,7 @@
       <div v-if="gameStatus === 3" style="text-align: center">
         <h2>You win!</h2>
         <h2>Did you find the peanut in ostracods?</h2>
-        <img alt="For traching" src="/public/peanutshell.jpeg"/>
-        <my-ad style="margin-top: 16px" />
+        <img alt="For traching" src="public/peanutshell.jpeg"/>
       </div>
     </a-row>
     <!-- 分层选块 -->
