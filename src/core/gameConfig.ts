@@ -73,7 +73,7 @@ export const middleGameConfig: GameConfigType = {
   // 需要多少个一样块的才能合成
   composeNum: 3,
   // 动物类别数
-  typeNum: 10,
+  typeNum: 11,
   // 每层块数（大致）
   levelBlockNum: 12,
   // 边界收缩步长

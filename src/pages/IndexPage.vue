@@ -4,7 +4,7 @@
     <div style="margin-bottom: 16px">Know more about Ostracods through game</div>
     <a-button
       block
-      style="margin-bottom: 16px"
+      style="display: none; margin-bottom: 16px"
       @click="toGamePage(easyGameConfig)"
     >
       Easy Mode
@@ -14,32 +14,32 @@
       style="margin-bottom: 16px"
       @click="toGamePage(middleGameConfig)"
     >
-      Middle mode
+      Start game
     </a-button>
     <a-button
       block
-      style="margin-bottom: 16px"
+      style="display: none; margin-bottom: 16px"
       @click="toGamePage(hardGameConfig)"
     >
       Hard Mode
     </a-button>
     <a-button
       block
-      style="margin-bottom: 16px"
+      style="display: none; margin-bottom: 16px"
       @click="toGamePage(lunaticGameConfig)"
     >
       Lunatic Mode
     </a-button>
     <a-button
       block
-      style="margin-bottom: 16px"
+      style="display: none; margin-bottom: 16px"
       @click="toGamePage(skyGameConfig)"
     >
       Sky mode
     </a-button>
     <a-button
       block
-      style="margin-bottom: 16px"
+      style="display: none; margin-bottom: 16px"
       @click="toGamePage(yangGameConfig)"
     >
       Orginal mode
