@@ -44,7 +44,7 @@
     >
       Orginal mode
     </a-button>
-    <a-button block style="margin-bottom: 16px" @click="() => toGamePage()">
+    <a-button block style="display: none; margin-bottom: 16px" @click="() => toGamePage()">
       customized
     </a-button>
     <div class="footer" style="display: none;">
