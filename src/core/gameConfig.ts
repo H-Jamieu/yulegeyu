@@ -40,6 +40,8 @@ export const defaultGameConfig: GameConfigType = {
   randomBlocks: [8, 8],
   // 动物数组
   animals,
+  // heightNum for UI
+  heightNum: 14,
 };
 
 /**
@@ -62,6 +64,8 @@ export const easyGameConfig: GameConfigType = {
   randomBlocks: [4, 4],
   // 动物数组
   animals,
+   // heightNum for UI
+   heightNum: 14,
 };
 
 /**
@@ -84,6 +88,8 @@ export const middleGameConfig: GameConfigType = {
   randomBlocks: [0, 0],
   // 动物数组
   animals,
+   // heightNum for UI
+   heightNum: 14,
 };
 
 /**
@@ -95,17 +101,19 @@ export const hardGameConfig: GameConfigType = {
   // 需要多少个一样块的才能合成
   composeNum: 3,
   // 动物类别数
-  typeNum: 12,
+  typeNum: 6,
   // 每层块数（大致）
-  levelBlockNum: 16,
+  levelBlockNum: 10,
   // 边界收缩步长
   borderStep: 1,
   // 总层数（最小为 2）
-  levelNum: 8,
+  levelNum: 3,
   // 随机区块数（数组长度代表随机区数量，值表示每个随机区生产多少块）
-  randomBlocks: [6, 6],
+  randomBlocks: [0, 0],
   // 动物数组
   animals,
+   // heightNum for UI
+   heightNum: 28,
 };
 
 /**
@@ -128,6 +136,8 @@ export const lunaticGameConfig: GameConfigType = {
   randomBlocks: [8, 8],
   // 动物数组
   animals,
+   // heightNum for UI
+   heightNum: 14,
 };
 
 /**
@@ -150,6 +160,8 @@ export const skyGameConfig: GameConfigType = {
   randomBlocks: [8, 8],
   // 动物数组
   animals,
+   // heightNum for UI
+   heightNum: 14,
 };
 
 /**
@@ -172,4 +184,6 @@ export const yangGameConfig: GameConfigType = {
   randomBlocks: [8, 8],
   // 动物数组
   animals,
+   // heightNum for UI
+   heightNum: 14,
 };

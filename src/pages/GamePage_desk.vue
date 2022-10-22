@@ -9,10 +9,7 @@
       <div v-if="gameStatus === 3" style="text-align: center">
         <h2>You win!</h2>
         <h2>Did you find the peanut in ostracods?</h2>
-        <img alt="For traching" src="/public/peanutshell.jpeg" class="bigimage"/>
-        <h2>sinocytheridea impressa</h2>
-        <img alt="For traching" src="sinocytheridea impressa.png" class="bigimage"/>
-
+        <img alt="" src="/public/peanutshell.jpeg"/>
       </div>
     </a-row>
     <!-- 分层选块 -->
@@ -31,7 +28,7 @@
               left: block.x * widthUnit + 'px',
               top: block.y * heightUnit + 'px',
             }"
-            @click="() => {doClickBlock(block); doSeeRandom; doSeeRandom; doSeeRandom}"
+            @click="() => {doClickBlock(block);}"
           >
             <img :src="block.type" alt=""/>
             <!--{{ block.type }}-->
@@ -66,7 +63,6 @@
         </div>
       </div>
     </a-row>
-    
     <!-- 槽位 -->
     <a-row v-if="slotAreaVal.length > 0" align="center" class="slot-board">
       <div v-for="(slotBlock, index) in slotAreaVal" :key="index" class="block">
@@ -81,7 +77,7 @@
         <a-button size="small" @click="doShuffle">Shuffle</a-button>
        <!--<a-button size="small" @click="doBroke">Broke</a-button>-->
         <!-- <a-button size="small" @click="doHolyLight">Holylight</a-button> -->
-        <a-button size="small" @click="doSeeRandom">APPLE!</a-button>
+        <!-- <a-button size="small" @click="doSeeRandom">refresh</a-button> -->
       </a-space>
     </div>
   </div>
@@ -146,7 +142,7 @@ onMounted(() => {
 }
 
 .slot-board {
-  border: 10px solid saddlebrown;
+  border: 12px solid saddlebrown;
   margin: 16px auto;
   width: fit-content;
 }
@@ -157,9 +153,9 @@ onMounted(() => {
 
 .block {
   font-size: 28px;
-  width: 42px;
-  height: 42px;
-  line-height: 42px;
+  width: 84px;
+  height: 84px;
+  line-height: 84px;
   border: 1px solid rgb(139, 69, 19);
   background: white;
   text-align: center;
@@ -180,11 +176,6 @@ img {
   background: grey;
   cursor: not-allowed;
   filter: grayscale(100%) brightness(55%);
-}
-
-.bigimage {
-  width: 240;
-  height: 240;
 }
 
 

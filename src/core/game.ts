@@ -38,8 +38,8 @@ const useGame = () => {
   const boxHeightNum = 24;
 
   // 每个格子的宽高
-  const widthUnit = 14;
-  const heightUnit = 14;
+  const widthUnit = gameConfig.heightNum;
+  const heightUnit = gameConfig.heightNum;
 
   // 保存整个 "棋盘" 的每个格子状态（下标为格子起始点横纵坐标）
   let chessBoard: ChessBoardUnitType[][] = [];
@@ -360,8 +360,10 @@ const useGame = () => {
     if (tempSlotNum >= gameConfig.slotNum) {
       gameStatus.value = 2;
       setTimeout(() => {
-        alert("Lost in game? Revert and retry!");
-      }, 2000);
+        confirm("Lost in game? Why not retry?");
+        window.location.reload();
+      }, 200);
+      
     }
     if (clearBlockNum.value >= totalBlockNum.value) {
       gameStatus.value = 3;

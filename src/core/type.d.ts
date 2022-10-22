@@ -43,6 +43,8 @@ interface GameConfigType {
   randomBlocks: number[];
   // 动物数组
   animals: string[];
+  // heightNum for UI
+  heightNum: number;
   // 最上层块数（已废弃）
   // topBlockNum: 40,
   // 最下层块数最小值（已废弃）

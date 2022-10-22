@@ -14,7 +14,7 @@
       style="margin-bottom: 16px"
       @click="toGamePage(middleGameConfig)"
     >
-      Start game
+      Mobile
     </a-button>
     <a-button
       block
@@ -44,8 +44,8 @@
     >
       Orginal mode
     </a-button>
-    <a-button block style="display: none; margin-bottom: 16px" @click="() => toGamePage()">
-      customized
+    <a-button block style="margin-bottom: 16px" @click="() => toGamePage()">
+      Desktop
     </a-button>
     <div class="footer" style="display: none;">
       鱼了个鱼 ©2022 by
@@ -86,6 +86,7 @@ const toGamePage = (config?: GameConfigType) => {
     setGameConfig(config);
     router.push("/game");
   } else {
+    setGameConfig(hardGameConfig)
     router.push("/config");
   }
 };
