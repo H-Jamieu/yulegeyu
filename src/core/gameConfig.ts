@@ -1,14 +1,14 @@
 // 动物数组
 const animals = [
-  "public/peanutshell_black.jpeg",
-  "public/callistocythere aff. reticurata.png",
+  "peanutshell_black.jpeg",
+  "sinocytheridea impressa.png",
+  "callistocythere aff. reticurata.png",
+  "Munseyella japonica.png",
+  "Bicornucythere bisanensis s.l..png",
+  "hemikrithe orientails.png",
   "public/keijekka kloempeitensis.png",
-  "public/hemikrithe orientails.png",
-  "public/Bicornucythere bisanensis s.l..png",
-  "public/Munseyella japonica.png",
   "public/Cytheropteron miurense.png",
   "public/Loxoconcha malayensis.png",
-  "public/sinocytheridea impressa.png",
   "public/Neomonocertina delicata.png",
   "public/cornucoquimba cf. gibboidea.png",
   "public/images/img12.jpg",
@@ -73,15 +73,15 @@ export const middleGameConfig: GameConfigType = {
   // 需要多少个一样块的才能合成
   composeNum: 3,
   // 动物类别数
-  typeNum: 11,
+  typeNum: 6,
   // 每层块数（大致）
-  levelBlockNum: 12,
+  levelBlockNum: 10,
   // 边界收缩步长
   borderStep: 1,
   // 总层数（最小为 2）
-  levelNum: 7,
+  levelNum: 3,
   // 随机区块数（数组长度代表随机区数量，值表示每个随机区生产多少块）
-  randomBlocks: [5, 5],
+  randomBlocks: [0, 0],
   // 动物数组
   animals,
 };
