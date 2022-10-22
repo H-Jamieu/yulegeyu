@@ -77,7 +77,7 @@
         <a-button size="small" @click="doShuffle">Shuffle</a-button>
        <!--<a-button size="small" @click="doBroke">Broke</a-button>-->
         <a-button size="small" @click="doHolyLight">Holylight</a-button>
-        <a-button size="small" @click="doSeeRandom">See hidden</a-button>
+        <a-button size="small" @click="doSeeRandom">refresh</a-button>
       </a-space>
     </div>
   </div>
