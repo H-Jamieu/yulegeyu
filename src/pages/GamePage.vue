@@ -72,11 +72,11 @@
     <!-- 技能 -->
     <div class="skill-board">
       <a-space>
-        <a-button size="small" @click="doRevert">Revert</a-button>
+        <!-- <a-button size="small" @click="doRevert">Revert</a-button> -->
         <a-button size="small" @click="doRemove">Remove</a-button>
         <a-button size="small" @click="doShuffle">Shuffle</a-button>
-        <a-button size="small" @click="doBroke">Broke</a-button>
-        <a-button size="small" @click="doSeeRandom">See hidden</a-button>
+        <!--<a-button size="small" @click="doBroke">Broke</a-button>-->
+        <a-button size="small" @click="doSeeRandom">Refresh</a-button>
       </a-space>
     </div>
   </div>
