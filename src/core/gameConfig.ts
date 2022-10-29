@@ -5,6 +5,7 @@ const animals = [
   "callistocythere aff. reticurata.png",
   "Munseyella japonica.png",
   "Bicornucythere bisanensis s.l..png",
+  "Stigmatocythere rosemani.png",
   "hemikrithe orientails.png",
   "public/keijekka kloempeitensis.png",
   "public/Cytheropteron miurense.png",
