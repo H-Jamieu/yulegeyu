@@ -8,11 +8,27 @@
     <a-row align="center">
       <div v-if="gameStatus === 3" style="text-align: center">
         <h2>You win!</h2>
-        <h2>Did you find the peanut in ostracods?</h2>
-        <img alt="For traching" src="/public/peanutshell.jpeg" class="bigimage"/>
-        <h2>sinocytheridea impressa</h2>
-        <img alt="For traching" src="sinocytheridea impressa.png" class="bigimage"/>
-
+        <h2>The 'Ostracods' in the game are: </h2>
+        <h2>Peanut! &#8595;</h2>
+        <div class="bigimage">
+            <img alt="For traching" src="peanutshell.jpeg" />
+        </div>
+        <h2>Callistocythere aff. reticurata &#8595;</h2>
+        <div class="bigimage">
+            <img alt="For traching" src="callistocythere aff. reticurata.png"/>
+        </div>
+        <h2>Bicornucythere bisanensis s.l.. &#8595;</h2>
+        <div class="bigimage">
+            <img alt="For traching" src="Bicornucythere bisanensis s.l..png"/>
+        </div>
+        <h2>Hemikrithe orientails &#8595;</h2>
+        <div class="bigimage">
+            <img alt="For traching" src="hemikrithe orientails.png"/>
+        </div>
+        <h2>Munseyella japonica &#8595;</h2>
+        <div class="bigimage">
+            <img alt="For traching" src="Munseyella japonica.png"/>
+        </div>
       </div>
     </a-row>
     <!-- 分层选块 -->
@@ -79,7 +95,7 @@
         <!-- <a-button size="small" @click="doRevert">Revert</a-button> -->
         <a-button size="small" @click="doRemove">Remove</a-button>
         <a-button size="small" @click="doShuffle">Shuffle</a-button>
-       <!--<a-button size="small" @click="doBroke">Broke</a-button>-->
+        <!--<a-button size="small" @click="doBroke">Broke</a-button>-->
         <!-- <a-button size="small" @click="doHolyLight">Holylight</a-button> -->
         <a-button size="small" @click="doSeeRandom">APPLE!</a-button>
       </a-space>
@@ -183,9 +199,13 @@ img {
 }
 
 .bigimage {
-  width: 240;
-  height: 240;
+  width: 200;
+  height: 200;
 }
 
+.bigimage img{
+  width: 200;
+  height: 200;
+}
 
 </style>
