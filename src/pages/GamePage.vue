@@ -11,23 +11,23 @@
         <h2>The 'Ostracods' in the game are: </h2>
         <h2>Peanut! &#8595;</h2>
         <div class="bigimage">
-            <img alt="For traching" src="peanutshell.jpeg" />
+            <img alt="For traching" src="/peanutshell.jpeg" />
         </div>
         <h2>Callistocythere aff. reticurata &#8595;</h2>
         <div class="bigimage">
-            <img alt="For traching" src="callistocythere aff. reticurata.png"/>
+            <img alt="For traching" src="/callistocythere aff. reticurata.png"/>
         </div>
         <h2>Bicornucythere bisanensis s.l.. &#8595;</h2>
         <div class="bigimage">
-            <img alt="For traching" src="Bicornucythere bisanensis s.l..png"/>
+            <img alt="For traching" src="/Bicornucythere bisanensis s.l..png"/>
         </div>
         <h2>Stigmatocythere rosemani &#8595;</h2>
         <div class="bigimage">
-            <img alt="For traching" src="Stigmatocythere rosemani.png"/>
+            <img alt="For traching" src="/Stigmatocythere rosemani.png"/>
         </div>
         <h2>Munseyella japonica &#8595;</h2>
         <div class="bigimage">
-            <img alt="For traching" src="Munseyella japonica.png"/>
+            <img alt="For traching" src="/Munseyella japonica.png"/>
         </div>
       </div>
     </a-row>
