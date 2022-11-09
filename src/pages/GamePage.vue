@@ -15,19 +15,19 @@
         </div>
         <h2>Callistocythere aff. reticurata &#8595;</h2>
         <div class="bigimage">
-            <img alt="For traching" src="/callistocythere aff. reticurata.png"/>
+            <img alt="For traching" src="/public/Callistocythere.png"/>
         </div>
         <h2>Bicornucythere bisanensis s.l.. &#8595;</h2>
         <div class="bigimage">
-            <img alt="For traching" src="/Bicornucythere bisanensis s.l..png"/>
+            <img alt="For traching" src="/public/Bicornucythere.png"/>
         </div>
         <h2>Stigmatocythere rosemani &#8595;</h2>
         <div class="bigimage">
-            <img alt="For traching" src="/Stigmatocythere rosemani.png"/>
+            <img alt="For traching" src="/public/Stigmatocythere.png"/>
         </div>
         <h2>Munseyella japonica &#8595;</h2>
         <div class="bigimage">
-            <img alt="For traching" src="/Munseyella japonica.png"/>
+            <img alt="For traching" src="/public/Munseyella.png"/>
         </div>
       </div>
     </a-row>
